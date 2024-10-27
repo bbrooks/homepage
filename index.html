@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ben Brooks - Front-End Web Developer</title>
+        <meta name="description" content="Ben Brooks is an experienced front-end web developer.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /* I'm willing to debate whether or not it would be appropriate to put this in an external stylesheet. Personally, I'm all about reducing requests! :) */
+            body {
+                font-family: sans-serif;
+                text-align: center;
+                background-color: #f7f7f7;
+                margin: 30px auto;
+                max-width: 512px;
+            }
+
+            .selfie { border-radius: 100%; }
+
+            blockquote {
+              display: block;
+              padding: 15px 20px 15px 45px;
+              margin: 0 0 20px;
+              position: relative;
+              font-size: 18px;
+              line-height: 1.2;
+              color: #666;
+              text-align: left;
+            }
+
+            blockquote::before {
+              content: "\201C";
+              font-size: 60px;
+              font-weight: bold;
+              color: #999;
+              position: absolute;
+              left: 10px;
+              top:5px;
+            }
+
+            .network-link {
+                display: inline-block;
+                margin: 25px;
+                opacity: .8;
+            }
+
+            .network-link:hover { opacity: 1; }
+
+            .network-link img {
+                border: none;
+            }
+        </style>
+    </head>
+    <body>
+        <img class="selfie" src="./img/ben.jpg" width="192" height="192" alt="Ben Brooks">
+        <br>
+        <a  class="network-link" href="https://github.com/bbrooks">
+            <img src="./img/github.png" height="64" width="64" alt="Find me on Github">
+        </a>
+        <a class="network-link" href="http://www.linkedin.com/in/brooksbenjamin">
+            <img src="./img/linked-in.png" height="64" width="70" alt="Find me on LinkedIn">
+        </a>
+        <blockquote>
+            <p>I worked closely with Ben for two years. He's a rare combination of talented coder and great communicator: in other words, he can build stuff but also talk about it in ways that both technical and non-technical people can understand. I would jump at the chance to work with him again!</p>
+            <cite>— Scott Rosenberg, founder of Salon.com</cite>
+        </blockquote>
+        <blockquote>
+            <p>Ben is one of the most talented engineers and thinkers I've worked with. He's great with analytics, front and backend development ... and he also happens to be a great guy.</p>
+            <cite>— Matt Perry, former product director of MoveOn.org</cite>
+        </blockquote>
+        <blockquote>
+            <p>Ben worked on a significant revision of my web site. I greatly appreciated his efficiency, reliability, and attention to details. I really liked how he would quickly check in with me when he realized I might not have understood all the implications of what I asked for. He always had helpful suggestions for handling issues. He was up front about what he didn't know, but often surprised me by figuring out what he needed to learn.</p>
+            <cite>— Kathryn Roy, Precision Thinking</cite>
+        </blockquote>
+        <blockquote>
+            <p>Ben's communication skills are extraordinary. He always asks questions, explains things in plain english, and works with the highest level of integrity. I'd highly recommend Ben to anyone. </p>
+            <cite>— Dave Gilman, Cognito Creative</cite>
+        </blockquote>
+        <script>
+            console.info("Hi there! I see you're diving under the hood! Alas, there's not much to see here since this is just a simple static website! If you want to see some of my JavaScript work, check me out on GitHub at https://github.com/bbrooks");
+        </script>
+    </body>
+</html>
